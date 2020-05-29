@@ -1,0 +1,19 @@
+language: python
+python:
+- 3.5
+- 3.6
+- 3.7
+- 3.8
+cache: pip
+before_install:
+- "echo 'hello'"
+before_deploy:
+- pip3 install bumpversion
+- sudo apt-get update
+deploy:
+- provider: script
+  script: publish.sh
+  skip_cleanup: true
+  on:
+    python: 3.8
+    tags: true
