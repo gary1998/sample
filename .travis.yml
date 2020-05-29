@@ -7,4 +7,3 @@ python:
 cache: pip
 before_deploy:
 - pip3 install bumpversion
-- sudo apt-get update
