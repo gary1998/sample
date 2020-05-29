@@ -2,7 +2,7 @@ from setuptools import setup
 import os
 import sys
 
-__version__ = '1.0.0'
+__version__ = '1.0.1'
 
 
 setup(name='sample',
