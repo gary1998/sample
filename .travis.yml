@@ -7,3 +7,12 @@ python:
 cache: pip
 before_deploy:
 - pip3 install bumpversion
+deploy:
+- provider: pypi
+  user: gauragos
+  password: '!12345GauravUl#'
+  repository: https://upload.pypi.org/legacy
+  skip_cleanup: true
+  on:
+    python: 3.8
+    tags: true
