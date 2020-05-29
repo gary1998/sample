@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/gary1998/sample/compare/v1.1.0...v1.2.0) (2020-05-29)
+
+
+### Features
+
+* **pypi deployment:** deployment to PyPI ([9bef2b7](https://github.com/gary1998/sample/commit/9bef2b7936e4114f9704bccd7cc696eaa9e094c9))
+
 # [1.1.0](https://github.com/gary1998/sample/compare/v1.0.0...v1.1.0) (2020-05-29)
 
 
