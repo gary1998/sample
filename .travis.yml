@@ -8,6 +8,7 @@ before_install:
 - npm install npm@latest -g
 before_deploy:
 - pip3 install bumpversion
+- pip3 install -U python-dotenv
 - sudo apt-get update
 - nvm install 12
 - npm install @semantic-release/changelog
