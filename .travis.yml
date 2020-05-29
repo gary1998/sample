@@ -5,8 +5,6 @@ python:
 - 3.7
 - 3.8
 cache: pip
-before_install:
-- "echo 'hello'"
 before_deploy:
 - pip3 install bumpversion
 - sudo apt-get update
