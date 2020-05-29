@@ -1,2 +1,1 @@
-echo $GH_TOKEN
-echo $GITHUB_TOKEN
+echo "hello"

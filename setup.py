@@ -5,7 +5,7 @@ import sys
 __version__ = '0.0.1'
 
 
-setup(name='ibm-watson',
+setup(name='sample',
       version=__version__,
       description='desc',
       license='lic',
