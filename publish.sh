@@ -1,1 +1,2 @@
-echo "publishing"
+echo $GH_TOKEN
+echo $GITHUB_TOKEN
