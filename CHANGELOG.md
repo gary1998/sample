@@ -1,3 +1,12 @@
+# [1.1.0](https://github.com/gary1998/sample/compare/v1.0.0...v1.1.0) (2020-05-29)
+
+
+### Features
+
+* **main file:** sample comment ([6d35645](https://github.com/gary1998/sample/commit/6d356453408a284f41a46e31e53e72091c40b8a0))
+* **main file:** sample comment ([afd07b8](https://github.com/gary1998/sample/commit/afd07b8cb825f35ace92e9998bccd03c851a6740))
+* **main file:** sample comment ([ee8f3c0](https://github.com/gary1998/sample/commit/ee8f3c076bb42ceb6e3d2eb3b8420a87ff3007b2))
+
 # 1.0.0 (2020-05-29)
 
 
