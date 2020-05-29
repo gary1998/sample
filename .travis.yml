@@ -7,8 +7,16 @@ python:
 cache: pip
 script:
 - sh publish.sh
+before_install:
+- npm install npm@latest -g
 before_deploy:
 - pip3 install bumpversion
+- sudo apt-get update
+- nvm install 12
+- npm install @semantic-release/changelog
+- npm install @semantic-release/exec
+- npm install @semantic-release/git
+- npm install @semantic-release/github
 deploy:
 - provider: pypi
   user: gauragos
@@ -18,3 +26,9 @@ deploy:
   on:
     python: 3.8
     tags: false
+- provider: script
+  script: npx semantic-release
+  skip_cleanup: true
+  on:
+    python: 3.8
+    branch: master
