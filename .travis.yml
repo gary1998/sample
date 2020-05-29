@@ -10,10 +10,3 @@ before_install:
 before_deploy:
 - pip3 install bumpversion
 - sudo apt-get update
-deploy:
-- provider: script
-  script: publish.sh
-  skip_cleanup: true
-  on:
-    python: 3.8
-    tags: true
