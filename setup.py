@@ -5,7 +5,7 @@ import sys
 __version__ = '1.1.0'
 
 
-setup(name='sample',
+setup(name='gauragos-sample-pypi',
       version=__version__,
       description='desc',
       license='lic',
